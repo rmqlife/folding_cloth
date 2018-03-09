@@ -7,6 +7,25 @@ TARGET = hello
 CONFIG += console
 CONFIG -= app_bundle
 
+LIBS += \
+       -lboost_system \
+       -lboost_filesystem
+
+
 TEMPLATE = app
 
-SOURCES += main.cpp
+SOURCES += \
+    svg_converter.cpp
+
+HEADERS += \
+    nanosvg.h \
+    nanosvgrast.h \
+    stb_image_write.h
+
+DISTFILES += \
+    hello.pro.user \
+    pants.svg \
+    shorts.svg \
+    tshirt.svg \
+    nano.svg
+
