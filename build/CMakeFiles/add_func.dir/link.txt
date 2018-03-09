@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/add_func.dir/main.cpp.o  -o add_func 
+/usr/bin/c++   -fopenmp -O3 -std=c++11    CMakeFiles/add_func.dir/main.cpp.o  -o add_func -rdynamic -lboost_program_options libs/sqrt/libsqrt.a -lboost_program_options 

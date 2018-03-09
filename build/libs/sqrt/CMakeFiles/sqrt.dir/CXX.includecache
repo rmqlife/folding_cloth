@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rmqlife/hello/src/libs/sqrt/MathFunctions.h
+
+/home/rmqlife/hello/src/libs/sqrt/mysqrt.cxx
+MathFunctions.h
+/home/rmqlife/hello/src/libs/sqrt/MathFunctions.h
+stdio.h
+-
+

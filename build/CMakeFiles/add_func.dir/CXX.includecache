@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/rmqlife/work/folding_cloth/src/main.cpp
+/home/rmqlife/hello/src/main.cpp
 iostream
 -
 fstream
+-
+boost/filesystem.hpp
 -
 
