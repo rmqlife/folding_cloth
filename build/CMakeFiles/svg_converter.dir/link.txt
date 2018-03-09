@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/svg_converter.dir/svg_converter.cpp.o  -o svg_converter libs/sqrt/libsqrt.a libs/nanosvg/libnanosvg.a 
