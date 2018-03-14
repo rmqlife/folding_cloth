@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/rmqlife/hello/src/libs/sqrt/MathFunctions.h
+/home/rmqlife/work_local/folding_cloth/src/libs/sqrt/MathFunctions.h
 
-/home/rmqlife/hello/src/libs/sqrt/mysqrt.cxx
+/home/rmqlife/work_local/folding_cloth/src/libs/sqrt/mysqrt.cxx
 MathFunctions.h
-/home/rmqlife/hello/src/libs/sqrt/MathFunctions.h
+/home/rmqlife/work_local/folding_cloth/src/libs/sqrt/MathFunctions.h
 stdio.h
 -
 

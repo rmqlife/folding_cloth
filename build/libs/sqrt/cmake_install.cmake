@@ -1,4 +1,4 @@
-# Install script for directory: /home/rmqlife/hello/src/libs/sqrt
+# Install script for directory: /home/rmqlife/work_local/folding_cloth/src/libs/sqrt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
