@@ -1,4 +1,4 @@
-# Install script for directory: /home/rmqlife/hello/src/libs/nanosvg
+# Install script for directory: /home/rmqlife/work_local/folding_cloth/src/libs/nanosvg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

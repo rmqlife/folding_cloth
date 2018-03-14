@@ -91,8 +91,11 @@ add_func_EXTERNAL_OBJECTS =
 add_func: CMakeFiles/add_func.dir/main.cpp.o
 add_func: CMakeFiles/add_func.dir/build.make
 add_func: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+add_func: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+add_func: /usr/lib/x86_64-linux-gnu/libboost_system.so
+add_func: /usr/lib/x86_64-linux-gnu/libboost_system.so
+add_func: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 add_func: libs/sqrt/libsqrt.a
-add_func: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 add_func: CMakeFiles/add_func.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rmqlife/work_local/folding_cloth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable add_func"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/add_func.dir/link.txt --verbose=$(VERBOSE)

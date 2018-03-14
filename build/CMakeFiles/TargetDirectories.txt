@@ -1,6 +1,9 @@
 /home/rmqlife/work_local/folding_cloth/build/CMakeFiles/edit_cache.dir
 /home/rmqlife/work_local/folding_cloth/build/CMakeFiles/rebuild_cache.dir
+/home/rmqlife/work_local/folding_cloth/build/CMakeFiles/svg_converter.dir
 /home/rmqlife/work_local/folding_cloth/build/CMakeFiles/add_func.dir
+/home/rmqlife/work_local/folding_cloth/build/libs/nanosvg/CMakeFiles/edit_cache.dir
+/home/rmqlife/work_local/folding_cloth/build/libs/nanosvg/CMakeFiles/rebuild_cache.dir
 /home/rmqlife/work_local/folding_cloth/build/libs/sqrt/CMakeFiles/edit_cache.dir
 /home/rmqlife/work_local/folding_cloth/build/libs/sqrt/CMakeFiles/rebuild_cache.dir
 /home/rmqlife/work_local/folding_cloth/build/libs/sqrt/CMakeFiles/sqrt.dir

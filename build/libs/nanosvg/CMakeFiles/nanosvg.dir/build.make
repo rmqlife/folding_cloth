@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rmqlife/hello/src
+CMAKE_SOURCE_DIR = /home/rmqlife/work_local/folding_cloth/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rmqlife/hello/build
+CMAKE_BINARY_DIR = /home/rmqlife/work_local/folding_cloth/build
 
 # Include any dependencies generated for this target.
 include libs/nanosvg/CMakeFiles/nanosvg.dir/depend.make
@@ -62,10 +62,10 @@ libs/nanosvg/CMakeFiles/nanosvg.dir/requires:
 .PHONY : libs/nanosvg/CMakeFiles/nanosvg.dir/requires
 
 libs/nanosvg/CMakeFiles/nanosvg.dir/clean:
-	cd /home/rmqlife/hello/build/libs/nanosvg && $(CMAKE_COMMAND) -P CMakeFiles/nanosvg.dir/cmake_clean.cmake
+	cd /home/rmqlife/work_local/folding_cloth/build/libs/nanosvg && $(CMAKE_COMMAND) -P CMakeFiles/nanosvg.dir/cmake_clean.cmake
 .PHONY : libs/nanosvg/CMakeFiles/nanosvg.dir/clean
 
 libs/nanosvg/CMakeFiles/nanosvg.dir/depend:
-	cd /home/rmqlife/hello/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rmqlife/hello/src /home/rmqlife/hello/src/libs/nanosvg /home/rmqlife/hello/build /home/rmqlife/hello/build/libs/nanosvg /home/rmqlife/hello/build/libs/nanosvg/CMakeFiles/nanosvg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rmqlife/work_local/folding_cloth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rmqlife/work_local/folding_cloth/src /home/rmqlife/work_local/folding_cloth/src/libs/nanosvg /home/rmqlife/work_local/folding_cloth/build /home/rmqlife/work_local/folding_cloth/build/libs/nanosvg /home/rmqlife/work_local/folding_cloth/build/libs/nanosvg/CMakeFiles/nanosvg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/nanosvg/CMakeFiles/nanosvg.dir/depend
 

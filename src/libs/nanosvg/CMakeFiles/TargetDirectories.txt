@@ -1,0 +1,2 @@
+/home/rmqlife/work_local/folding_cloth/src/libs/nanosvg/CMakeFiles/rebuild_cache.dir
+/home/rmqlife/work_local/folding_cloth/src/libs/nanosvg/CMakeFiles/edit_cache.dir

@@ -11,6 +11,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
+  "/home/rmqlife/work_local/folding_cloth/src/libs/nanosvg"
   "/home/rmqlife/work_local/folding_cloth/src/libs/sqrt"
   )
 

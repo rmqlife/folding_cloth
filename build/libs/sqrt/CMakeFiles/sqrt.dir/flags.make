@@ -6,5 +6,5 @@ CXX_FLAGS = -fopenmp -O3 -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rmqlife/work_local/folding_cloth/build -I/home/rmqlife/work_local/folding_cloth/src/libs/sqrt 
+CXX_INCLUDES = -I/home/rmqlife/work_local/folding_cloth/build -I/home/rmqlife/work_local/folding_cloth/src/libs/nanosvg -I/home/rmqlife/work_local/folding_cloth/src/libs/sqrt 
 
