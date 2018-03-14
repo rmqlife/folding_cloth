@@ -1,1 +1,0 @@
-/usr/bin/c++   -fopenmp -O3 -std=c++11    CMakeFiles/add_func.dir/main.cpp.o  -o add_func -rdynamic -lboost_program_options -lboost_filesystem -lboost_system -lboost_system -lboost_filesystem libs/sqrt/libsqrt.a 

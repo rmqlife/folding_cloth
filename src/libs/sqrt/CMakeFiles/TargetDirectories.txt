@@ -1,3 +1,0 @@
-/home/rmqlife/work_local/folding_cloth/src/libs/sqrt/CMakeFiles/edit_cache.dir
-/home/rmqlife/work_local/folding_cloth/src/libs/sqrt/CMakeFiles/rebuild_cache.dir
-/home/rmqlife/work_local/folding_cloth/src/libs/sqrt/CMakeFiles/sqrt.dir

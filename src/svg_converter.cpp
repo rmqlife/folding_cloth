@@ -11,22 +11,24 @@
 #include <iostream>
 using namespace boost::filesystem;
 using namespace std;
-int main()
+int main(int argc, char** argv)
 {
-    current_path("/home/rmqlife/hello");
+    //current_path("/home/rmqlife/hello");
     //cout << current_path() << endl;
 
 	NSVGimage *image = NULL;
 	NSVGrasterizer *rast = NULL;
 	unsigned char* img = NULL;
 	int w, h;
-    const char* filename = "tshirt.svg";
-
-	printf("parsing %s\n", filename);
-	image = nsvgParseFromFile(filename, "px", 96.0f);
+    string filename(argv[1]);
+	cout << "filename: "<< filename << endl;
+	 
+	image = nsvgParseFromFile(filename.c_str(), "px", 96.0f);
 	if (image == NULL) {
 		printf("Could not open SVG image.\n");
-		goto error;
+		nsvgDeleteRasterizer(rast);
+        nsvgDelete(image);  
+        return 1;
 	}
 	w = (int)image->width;
 	h = (int)image->height;
@@ -34,24 +36,26 @@ int main()
 	rast = nsvgCreateRasterizer();
 	if (rast == NULL) {
 		printf("Could not init rasterizer.\n");
-		goto error;
+		nsvgDeleteRasterizer(rast);
+        nsvgDelete(image);
+		return 1;
 	}
 
     img = (unsigned char*)malloc(w*h*4);
 	if (img == NULL) {
 		printf("Could not alloc image buffer.\n");
-		goto error;
+		nsvgDeleteRasterizer(rast);
+        nsvgDelete(image);  
+		return 1;
 	}
 
 	printf("rasterizing image %d x %d\n", w, h);
 	nsvgRasterize(rast, image, 0,0,1, img, w, h, w*4);
 
-	printf("writing svg.png\n");
- 	stbi_write_png("svg.png", w, h, 4, img, w*4);
-
-error:
-	nsvgDeleteRasterizer(rast);
-	nsvgDelete(image);
+    string output_filename = filename.substr(0,filename.length()-4) + ".png"; 
+    //filename[filename.length - 4]; //+".png"
+	cout << "Writing " << output_filename << endl;
+ 	stbi_write_png(output_filename.c_str(), w, h, 4, img, w*4);
 
 	return 0;
 }
